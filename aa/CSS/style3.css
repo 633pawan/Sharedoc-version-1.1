@@ -1,0 +1,102 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Volkhov:400italic,700);
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+/* Clearfix hack by Nicolas Gallagher: http://nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+html, body{
+background-color: #d1cfd5;
+color: #003366;
+
+
+}
+
+
+
+
+nav h2{
+	
+	color:white;
+	font-size: 60px;
+	margin-left: 8px;
+}
+
+
+nav {
+
+	height: 120px;
+	border: 1px solid black;
+	background-color: #6699cc;
+	font-size: 20px;
+
+}
+
+h1{
+	text-align: center;
+	color:white;
+	font-size: 60px;
+}
+#list{
+
+
+}
+
+#list ul li{
+	color:#003366;
+	font-size: 25px;
+	list-style-type: none;
+	margin-left: 80px;
+	
+
+
+}
+
+footer{
+	width:100%;
+border: 1px solid white;
+background-color:white;
+margin-top: 598px;
+padding-left: 40px;
+}
+footer h3{
+	color:#003366;
+}
+#myform{
+	font-size: 20px;
+}
+
+#list1{
+
+}
+h6{
+	font-size:20px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

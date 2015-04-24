@@ -1,0 +1,19 @@
+.btn{
+	width: 15%;
+	height: 40px;
+	background-color: #7fbb00;
+	border: 1px solid #7fbb00;
+	color: #fff;
+	margin-top: 0%;
+}
+
+table.ResultsTable td,th
+{
+border:2px solid #a1a1a1;
+padding:1px 2px; 
+}
+
+table.ResultsTable th {
+background:darkgray;
+color:white;
+}

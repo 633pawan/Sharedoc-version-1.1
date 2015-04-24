@@ -1,0 +1,161 @@
+@import url(http://fonts.googleapis.com/css?family=PT+Sans+Narrow|Volkhov:400italic,700);
+
+*,
+*:after,
+*:before {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+}
+
+
+.clearfix:after {
+	content: "";
+	display: table;
+	clear: both;
+}
+
+html{
+background-color:#d1cfd5;
+
+}
+
+
+
+
+nav h2{
+	
+	color:white;
+	font-size: 60px;
+	margin-left: 8px;
+}
+
+
+
+
+nav {
+	width: 100%;
+	height: 150px;
+	border: 1px solid black;
+	background-color: #6699cc;
+	font-size: 20px;
+
+}
+h1{
+	clear:both;
+	color:white;
+	font-size: 60px;
+	text-align: center;
+}
+
+
+#register{
+	font-size: 15px;
+	width: 90px;
+	height: 25px;
+	background-color: #003366;
+	color: white;
+margin-left: 80px;
+	border: 2px solid #003366;
+font-weight: bold;
+margin-top: 10px;
+margin-right: 80px;
+
+
+
+
+
+}
+
+
+#inputbox1 { 
+	background-color:#e8e9db;
+	height: 20px;
+	margin-right: 40px;
+	 }
+
+	 #inputbox2 { 
+	background-color:#e8e9db;
+	height: 20px;
+	margin-left: 6px;
+	clear:both;
+	
+	 }
+
+
+#form1{
+	float:right;
+	font-style: 26px;
+	color:white;
+}
+
+footer{
+	width:100%;
+border: 1px solid white;
+background-color:white;
+
+padding-left: 40px;
+margin-top: 93px;
+}
+footer h3{
+	color:#003366;
+	font-size: 30px;
+}
+
+
+#submit{
+	background-color:#003366;
+	font-size: 15px;
+margin-right: 15px;
+border: 1px solid #003366;
+padding-left: 5px;
+margin-bottom: 70px;
+	float:right;
+	color:white;
+	width:80px;
+	height:25px;
+	font-weight: bold;
+	margin-right: 80px;
+	margin-top: 7px;
+
+
+
+	
+}
+
+#topic1 h1{
+	color:#4169e1;
+}
+
+#homecontent{
+	float:right;
+	font-size: 16px;
+	color:#2f4f4f;
+	margin-right: 30px;
+
+}
+
+
+#slider1_container{
+
+	margin-top: 20px;
+	margin-left: 30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
