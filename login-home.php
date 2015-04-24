@@ -131,6 +131,7 @@ var jQuery_1_10_2 = $.noConflict(true);
     </div><!--/row-->
 
   </div><!--/container-->
-</div><!--/footer-
+</div>
+
 </body>
 </html>
