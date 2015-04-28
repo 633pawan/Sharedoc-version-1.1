@@ -94,6 +94,24 @@ var jQuery_1_10_2 = $.noConflict(true);
     <p>Here you can Update your Profile</p>
     <p></p>
   </div>
+  <style>
+#tabs-1{
+  background-color: #196dba;
+}
+#tabs-2{
+  background-color: #196dba;
+}
+#tabs-3{
+  background-color: #196dba;
+}
+#tabs-4{
+  background-color: #196dba;
+}
+  body{
+background-color: #c39797
+  }
+
+  </style>
    <div id="tabs-4">
     <p>AShareDoc is project created for the Project Managment Class by Taky Djarou and Pawan Mishra.</p>
     <p><img src="images/bio.png"></p>
