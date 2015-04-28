@@ -47,7 +47,7 @@ background-color: #202020 ;
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-           <a class="navbar-brand" href="#"><img src="Images/aaaa.png" height="30" width="100"></a>
+           <a class="navbar-brand" href="#"><img src="Images/aaaa.png" height="60" width="200"></a>
            <ul class="nav navbar-nav">
         <li class1="active"><a href="#"><b>shareDoc </b></a></li>
         <li><a href="register.php">Register</a></li>
@@ -102,9 +102,15 @@ Uses the excellent form validation script from JavaScript-coder.com-->
     
     frmvalidator.addValidation("password","req","Please provide the password");
 
-// ]]>
+
 </script>
 </div>
+<style>
+.footer-distribution {
+  margin-top: 400px;
+}
+
+</style>
 <footer class="footer-distributed">
 
       <div class="footer-left">
