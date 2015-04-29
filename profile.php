@@ -95,21 +95,29 @@ var jQuery_1_10_2 = $.noConflict(true);
     <p></p>
   </div>
   <style>
+  .footer-distributed{
+  background-color: #196dba
+}
+body{
+background-color: #fffff1;
+}
 #tabs-1{
-  background-color: #196dba;
+ background-color: #fffff1;
 }
 #tabs-2{
-  background-color: #196dba;
+ background-color: #fffff1;
 }
 #tabs-3{
-  background-color: #196dba;
+ background-color: #fffff1;
 }
 #tabs-4{
-  background-color: #196dba;
+  background-color: #fffff1;
+
 }
-  body{
-background-color: #c39797
-  }
+.navbar{
+  background-color:#196dba;
+}
+ 
 
   </style>
    <div id="tabs-4">

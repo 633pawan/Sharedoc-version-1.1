@@ -34,10 +34,17 @@ if(isset($_POST['submitted']))
 <body>
 <div class="page-container">
   <style>
-body{
-background-color: #202020 ;
+.footer-distributed{
+  background-color: #196dba
 }
-  </style>
+body{
+background-color: #fffff1;
+}
+.navbar{
+  background-color:#196dba;
+}
+
+</style>
   <!-- top navbar -->
     <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
        <div class="container">

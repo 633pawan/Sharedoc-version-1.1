@@ -123,9 +123,19 @@ background-color: #202020 ;
     
     frmvalidator.addValidation("password","req","Please provide a password");
 
-// ]]>
-</script>
 
+</script>
+<style>
+.footer-distributed{
+  background-color: #196dba
+}
+body{
+background-color: #fffff1;
+}
+.navbar{
+  background-color:#196dba;
+}
+</style>
 <footer class="footer-distributed">
 
       <div class="footer-left">

@@ -79,7 +79,17 @@ Your new password is sent to your email address.
         </div>
 
       </div>
-
+<style>
+.footer-distributed{
+  background-color: #196dba
+}
+body{
+background-color: #fffff1;
+}
+.navbar{
+  background-color:#196dba;
+}
+</style>
       <div class="footer-right">
 
         <p class="footer-company-about">

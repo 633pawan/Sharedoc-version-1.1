@@ -65,8 +65,26 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 
 // ]]>
 </script>
+<style>
+.footer-distributed{
+  background-color: #196dba
+}
+body{
+background-color: #fffff1;
+}
+.navbar{
+  background-color:#196dba;
+}
 
+</style>
 </div>
+<style>
+
+#footer-left{
+  margin-top: 700px;
+  width: 200px;
+}
+</style>
 <footer class="footer-distributed">
 
       <div class="footer-left">

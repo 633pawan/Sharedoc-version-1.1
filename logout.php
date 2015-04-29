@@ -38,7 +38,17 @@ $fgmembersite->LogOut();
            <a class="navbar-brand" href="#"><img src="Images/aaaa.png" height="30" width="200"></a>
            <ul class="nav navbar-nav">
        
-       
+       <style>
+.footer-distributed{
+  background-color: #196dba
+}
+body{
+background-color: #fffff1;
+}
+.navbar{
+  background-color:#196dba;
+}
+</style>
       
        <li><a href='login.php'>Login</a></li>
         <li><a href="#">About Us</a></li>
