@@ -15,6 +15,12 @@ if(isset($_POST['submitted']))
 <head>
       <meta http-equiv='Content-Type' content='text/html; charset=utf-8'/>
       <title>Login</title>
+      <link rel="stylesheet" href="footercss/demo.css">
+  <link rel="stylesheet" href="footercss/footer-distributed-with-address-and-phones.css">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
       <link rel="STYLESHEET" type="text/css" href="style/fg_membersite.css" />
       <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
   <link type='text/css' rel='stylesheet' href='css/style.css' />
@@ -29,7 +35,7 @@ if(isset($_POST['submitted']))
 <div class="page-container">
   <style>
 body{
-background-color: #202020 ;
+background-color: #ffffff ;
 }
   </style>
   <!-- top navbar -->
@@ -53,13 +59,13 @@ background-color: #202020 ;
       </div>
        </div>
     </div>
-
+<br><br><br><br>
 <!-- Form Code Start -->
-<div id='fg_membersite'>
+<div align=center id='fg_membersite'>
 <form id='login' action='<?php echo $fgmembersite->GetSelfScript(); ?>' method='post' accept-charset='UTF-8'>
 <fieldset >
 <legend>Login</legend>
-
+<h1>Please sign in here or Sign up if you haven't registred yet! </h1>
 <input type='hidden' name='submitted' id='submitted' value='1'/>
 
 <div class='short_explanation'>* required fields</div>
@@ -96,51 +102,76 @@ Uses the excellent form validation script from JavaScript-coder.com-->
     
     frmvalidator.addValidation("password","req","Please provide the password");
 
-// ]]>
+
 </script>
 </div>
-<!--
-Form Code End (see html-form-guide.com for more info.)
--->
 <style>
-
-#footer{
-  background-color:  brown;
-  margin-top: 350px;
+.footer-distribution {
+  margin-top: 400px;
 }
-</style>
-<div id="footer"><!--footer-->
-  <div class="container">
-        <div class="row">
-          <ul class="list-unstyled">
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">About</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Services</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Studies</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">References</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Login</a>
-            </li>
-           <li class="col-sm-4 col-xs-6">
-              <a href="#">Press</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Contact</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Impressum</a>
-            </li>
-          </ul>
-    </div><!--/row-->
 
-  </div><!--/container-->
-</div><!--/footer-->
+</style>
+<footer class="footer-distributed">
+
+      <div class="footer-left">
+
+        <h3>Company<span>logo</span></h3>
+
+        <p class="footer-links">
+       
+          ·
+          <a href="#">References</a>
+          ·
+          <a href="#">Studies</a>
+          ·
+          <a href="#">About US</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">ShareDoc  &copy; 2015</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>1102 MassAve</span> Boston, MA</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1 857-777-7777</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">Emailus@sharedoc.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+         This company is started with a purpose of provinding its users  a hassle free place to share, upload and get access to 1000000  different
+         resources with ease of access. Its completely free and easy to use. 
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
 </body>
 </html>

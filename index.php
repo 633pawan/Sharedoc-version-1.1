@@ -38,7 +38,7 @@ var jQuery_1_10_2 = $.noConflict(true);
            </button>
            <a class="navbar-brand" href="#"><img src="images/book.gif" height="30" width="200"></a>
            <ul class="nav navbar-nav">
-        <li class1="active"><a href="#"><b>shareDoc </b></a></li>
+        <li class1="active"><a href="#"><b>ShareDoc </b></a></li>
         <li><a href="#">My Profile</a></li>
         <li><a href="#">Library</a></li>
         <li><a href="#">About Us</a></li>

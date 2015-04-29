@@ -126,46 +126,67 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 
 </div>
 
-<style>
-#footer{
-  background-color: brown;
-  margin-top: 120px;
-}
+<footer class="footer-distributed">
 
+      <div class="footer-left">
 
-</style>
-<div id="footer"><!--footer-->
-  <div class="container">
-        <div class="row">
-          <ul class="list-unstyled">
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">About</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Services</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Studies</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">References</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Login</a>
-            </li>
-           <li class="col-sm-4 col-xs-6">
-              <a href="#">Press</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Contact</a>
-            </li>
-            <li class="col-sm-4 col-xs-6">
-              <a href="#">Impressum</a>
-            </li>
-          </ul>
-    </div><!--/row-->
+        <h3>Company<span>logo</span></h3>
 
-  </div><!--/container-->
-</div><!--/footer-
+        <p class="footer-links">
+       
+          ·
+          <a href="#">References</a>
+          ·
+          <a href="#">Studies</a>
+          ·
+          <a href="#">About US</a>
+          ·
+          <a href="#">Faq</a>
+          ·
+          <a href="#">Contact</a>
+        </p>
+
+        <p class="footer-company-name">ShareDoc  &copy; 2015</p>
+      </div>
+
+      <div class="footer-center">
+
+        <div>
+          <i class="fa fa-map-marker"></i>
+          <p><span>1102 MassAve</span> Boston, MA</p>
+        </div>
+
+        <div>
+          <i class="fa fa-phone"></i>
+          <p>+1 857-777-7777</p>
+        </div>
+
+        <div>
+          <i class="fa fa-envelope"></i>
+          <p><a href="mailto:support@company.com">Emailus@sharedoc.com</a></p>
+        </div>
+
+      </div>
+
+      <div class="footer-right">
+
+        <p class="footer-company-about">
+          <span>About the company</span>
+         This company is started with a purpose of provinding its users  a hassle free place to share, upload and get access to 1000000  different
+         resources with ease of access. Its completely free and easy to use. 
+        </p>
+
+        <div class="footer-icons">
+
+          <a href="#"><i class="fa fa-facebook"></i></a>
+          <a href="#"><i class="fa fa-twitter"></i></a>
+          <a href="#"><i class="fa fa-linkedin"></i></a>
+          <a href="#"><i class="fa fa-github"></i></a>
+
+        </div>
+
+      </div>
+
+    </footer>
 </body>
 </html>
