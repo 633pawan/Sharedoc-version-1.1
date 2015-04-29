@@ -42,7 +42,7 @@ Your new password is sent to your email address.
 
       <div class="footer-left">
 
-        <h3>Company<span>logo</span></h3>
+  <h3>Share<span>Doc</span></h3>
 
         <p class="footer-links">
        
@@ -58,7 +58,7 @@ Your new password is sent to your email address.
           <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">ShareDoc  &copy; 2015</p>
+       <p class="footer-company-name"> &copy;  All Rights Reserved 2015</p>
       </div>
 
       <div class="footer-center">

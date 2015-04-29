@@ -44,9 +44,9 @@ if(isset($_POST['submitted']))
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-           <a class="navbar-brand" href="#"><img src="Images/aaaa.png" height="30" width="100"></a>
+           <a class="navbar-brand" href="#"></a>
            <ul class="nav navbar-nav">
-        <li class1="active"><a href="#"><b>shareDoc </b></a></li>
+        <li class1="active"><a href="#"><b>ShareDoc </b></a></li>
         
 
  <li><a href="login.php">Login</a></li>
@@ -140,7 +140,7 @@ background-color: #fffff1;
 
       <div class="footer-left">
 
-        <h3>Company<span>logo</span></h3>
+  <h3>Share<span>Doc</span></h3>
 
         <p class="footer-links">
        
@@ -156,7 +156,7 @@ background-color: #fffff1;
           <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">ShareDoc  &copy; 2015</p>
+     <p class="footer-company-name"> &copy;  All Rights Reserved 2015</p>
       </div>
 
       <div class="footer-center">

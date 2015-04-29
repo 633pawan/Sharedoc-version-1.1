@@ -54,7 +54,7 @@ if(isset($_POST['submitted']))
 Uses the excellent form validation script from JavaScript-coder.com-->
 
 <script type='text/javascript'>
-// <![CDATA[
+
 
     var frmvalidator  = new Validator("resetreq");
     frmvalidator.EnableOnPageErrorDisplay();
@@ -63,7 +63,7 @@ Uses the excellent form validation script from JavaScript-coder.com-->
     frmvalidator.addValidation("email","req","Please provide the email address used to sign-up");
     frmvalidator.addValidation("email","email","Please provide the email address used to sign-up");
 
-// ]]>
+
 </script>
 <style>
 .footer-distributed{
@@ -89,7 +89,7 @@ background-color: #fffff1;
 
       <div class="footer-left">
 
-        <h3>Company<span>logo</span></h3>
+    <h3>Share<span>Doc</span></h3>
 
         <p class="footer-links">
        
@@ -105,7 +105,7 @@ background-color: #fffff1;
           <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">ShareDoc  &copy; 2015</p>
+        <p class="footer-company-name"> &copy;  All Rights Reserved 2015</p>
       </div>
 
       <div class="footer-center">

@@ -52,13 +52,13 @@ var jQuery_1_10_2 = $.noConflict(true);
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-           <a class="navbar-brand" href="#"><img src="images/aaaa.png" height="30" width="200"></a>
+           <a class="navbar-brand" href="#"></a>
            <ul class="nav navbar-nav">
         <li class1="active"><a href="#">Welcome  <?= $fgmembersite->UserFullName(); ?>!</a>
         
         <li><a href="library.html">Library</a></li>
        <li><a href='logout.php'>Logout</a></li>
-        <li><a href="#">About Us</a></li>
+       
        <li><a href='change-pwd.php'>Change password</a></li>
         
        
@@ -67,7 +67,7 @@ var jQuery_1_10_2 = $.noConflict(true);
        </div>
     </div>
 <br>
-<img src="images/book.gif" align=center><img src="images/logo.png" align=center>
+<img src="images/book.gif" align=center><img src="images/cv.png"  height="150" width="1000"align=center>
 <div id="tabs">
   <ul>
     <li><a href="#tabs-1">Upload Documents</a></li>
@@ -96,7 +96,7 @@ var jQuery_1_10_2 = $.noConflict(true);
   </div>
   <style>
   .footer-distributed{
-  background-color: #196dba
+  background-color: #196dba;
 }
 body{
 background-color: #fffff1;
@@ -115,7 +115,7 @@ background-color: #fffff1;
 
 }
 .navbar{
-  background-color:#196dba;
+  background-color: #196dba;
 }
  
 
@@ -130,7 +130,7 @@ background-color: #fffff1;
 
       <div class="footer-left">
 
-        <h3>Company<span>logo</span></h3>
+        <h3>Share<span>Doc</span></h3>
 
         <p class="footer-links">
        
@@ -146,7 +146,7 @@ background-color: #fffff1;
           <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">ShareDoc  &copy; 2015</p>
+        <p class="footer-company-name"> &copy;  All Rights Reserved 2015</p>
       </div>
 
       <div class="footer-center">
@@ -178,10 +178,10 @@ background-color: #fffff1;
 
         <div class="footer-icons">
 
-          <a href="#"><i class="fa fa-facebook"></i></a>
-          <a href="#"><i class="fa fa-twitter"></i></a>
-          <a href="#"><i class="fa fa-linkedin"></i></a>
-          <a href="#"><i class="fa fa-github"></i></a>
+          <a href="http://ww.facebook.com"><i class="fa fa-facebook"></i></a>
+          <a href="http://www.twitter.com"><i class="fa fa-twitter"></i></a>
+          <a href="http:/www./linkedin.com"><i class="fa fa-linkedin"></i></a>
+          <a href="http://www.github.com"><i class="fa fa-github"></i></a>
 
         </div>
 
