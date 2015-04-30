@@ -49,7 +49,7 @@ background-color: #202020 ;
            </button>
            <a class="navbar-brand" href="#"></a>
            <ul class="nav navbar-nav">
-        <li class1="active"><a href="#"><b>shareDoc </b></a></li>
+        <li class1="active"><a href="login.php"><b>LOGIN </b></a></li>
        
 <style>
 .footer-distributed{
@@ -69,7 +69,7 @@ background-color: #fffff1;
       </div>
        </div>
     </div>
-    <br><br> <br><br>
+    <br><br> <br><br><br><br>
 
 <h2>Confirm registration</h2>
 <p>

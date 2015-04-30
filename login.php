@@ -56,11 +56,8 @@ background-color: #fffff1;
            </button>
            <a class="navbar-brand" href="#"></a>
            <ul class="nav navbar-nav">
-        <li class1="active"><a href="#"><b>ShareDoc </b></a></li>
-        <li><a href="register.php">Register</a></li>
-
-
-        <li><a href="#">About Us</a></li>
+        <li class1="active"><a href="register.php"><b>REGISTER</b></a></li>
+        <li><a href="#">ABOUT US</a></li>
        
       </ul>
       </div>

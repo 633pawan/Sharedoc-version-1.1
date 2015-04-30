@@ -46,11 +46,11 @@ if(isset($_POST['submitted']))
            </button>
            <a class="navbar-brand" href="#"></a>
            <ul class="nav navbar-nav">
-        <li class1="active"><a href="#"><b>ShareDoc </b></a></li>
+        <li class1="active"><a href="login.php"><b>LOGIN </b></a></li>
         
 
- <li><a href="login.php">Login</a></li>
-        <li><a href="#">About Us</a></li>
+
+        <li><a href="#">ABOUT US</a></li>
        
       </ul>
         </div>

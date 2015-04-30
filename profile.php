@@ -54,12 +54,12 @@ var jQuery_1_10_2 = $.noConflict(true);
            </button>
            <a class="navbar-brand" href="#"></a>
            <ul class="nav navbar-nav">
-        <li class1="active"><a href="#">Welcome  <?= $fgmembersite->UserFullName(); ?>!</a>
+        <li class1="active"><a href="#">WELCOME  <?= $fgmembersite->UserFullName(); ?>!</a>
         
-        <li><a href="library.html">Library</a></li>
-       <li><a href='logout.php'>Logout</a></li>
+        <li><a href="library.html">LIBRARY</a></li>
+       <li><a href='logout.php'>EXIT</a></li>
        
-       <li><a href='change-pwd.php'>Change password</a></li>
+       <li><a href='change-pwd.php'>PASSWORD RESET</a></li>
         
        
       </ul>
@@ -99,10 +99,10 @@ var jQuery_1_10_2 = $.noConflict(true);
   background-color: #196dba;
 }
 body{
-background-color: #fffff1;
+background-color: #b2d49e;
 }
 #tabs-1{
- background-color: #fffff1;
+ background-color:  #fffff1;
 }
 #tabs-2{
  background-color: #fffff1;

@@ -50,8 +50,8 @@ background-color: #fffff1;
 }
 </style>
       
-       <li><a href='login.php'>Login</a></li>
-        <li><a href="#">About Us</a></li>
+       <li><a href='login.php'>LOGIN</a></li>
+        <li><a href="#">ABOUT US</a></li>
        
         
        
@@ -59,10 +59,10 @@ background-color: #fffff1;
       </div>
        </div>
     </div>
-    <br><br><br><br><br><br>
+    <br><br><br><br>
 <h2>You have  been logged out</h2>
 
-
+<br><br><br><br><br><br><br><br><br><br>
 </p>
 
 

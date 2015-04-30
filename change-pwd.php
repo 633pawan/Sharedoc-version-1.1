@@ -27,6 +27,12 @@ if(isset($_POST['submitted']))
   <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
 
   <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
+      <link rel="stylesheet" href="footercss/demo.css">
+  <link rel="stylesheet" href="footercss/footer-distributed-with-address-and-phones.css">
+  
+  <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css">
+
+  <link href="http://fonts.googleapis.com/css?family=Cookie" rel="stylesheet" type="text/css">
       <link rel="stylesheet" href="//code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
   <script src="//code.jquery.com/jquery-1.10.2.js"></script>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -50,13 +56,13 @@ if(isset($_POST['submitted']))
              <span class="icon-bar"></span>
              <span class="icon-bar"></span>
            </button>
-           <a class="navbar-brand" href="#"><img src="images/book.gif" height="30" width="200"></a>
+           <a class="navbar-brand" href="#"></a>
            <ul class="nav navbar-nav">
-        <li class1="active"><a href="#"> Password Change Zone  <?= $fgmembersite->UserFullName(); ?>!</a>
+        <li class1="active"><a href="#"> PASSWORD RESET  <?= $fgmembersite->UserFullName(); ?>!</a>
        
        
-       <li><a href='logout.php'>Logout</a></li>
-        <li><a href="#">About Us</a></li>
+       <li><a href='logout.php'>EXIT</a></li>
+        <li><a href="#">ABOUT US</a></li>
       
         
        
@@ -99,7 +105,18 @@ if(isset($_POST['submitted']))
 <div class='container'>
     <input type='submit' name='Submit' value='Submit' />
 </div>
+<style>
+.footer-distributed{
+  background-color: #196dba;
+}
+body{
+background-color: #fffff1;
+}
+.navbar{
+  background-color:#196dba;
+}
 
+</style>
 </fieldset>
 </form>
 <!-- client-side Form Validations:
@@ -134,7 +151,7 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 
       <div class="footer-left">
 
-        <h3>Company<span>logo</span></h3>
+          <h3>Share<span>Doc</span></h3>
 
         <p class="footer-links">
        
@@ -150,7 +167,7 @@ Uses the excellent form validation script from JavaScript-coder.com-->
           <a href="#">Contact</a>
         </p>
 
-        <p class="footer-company-name">ShareDoc  &copy; 2015</p>
+        <p class="footer-company-name"> &copy;  All Rights Reserved 2015</p>
       </div>
 
       <div class="footer-center">

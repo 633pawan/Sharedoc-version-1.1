@@ -67,7 +67,7 @@ Uses the excellent form validation script from JavaScript-coder.com-->
 </script>
 <style>
 .footer-distributed{
-  background-color: #196dba
+  background-color: #196dba;
 }
 body{
 background-color: #fffff1;
